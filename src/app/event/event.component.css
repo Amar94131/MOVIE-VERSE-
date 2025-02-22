@@ -3,13 +3,11 @@
   margin: 0 auto;
   padding: 20px;
 }
-
 .movie-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-
 .movie-item {
   flex: 0 0 calc(25% - 20px); /* Each movie takes 25% width with a 20px margin on each side */
   margin: 10px;
@@ -18,24 +16,20 @@
   padding: 10px;
   border-radius: 5px;
 }
-
 .movie-item img {
   width: 100%;
   height: 100px;
   object-fit: cover;
   border-radius: 5px;
 }
-
 .movie-item h4 {
   margin-top: 10px;
   font-size: 18px;
 }
-
 .movie-item p {
   margin-top: 5px;
   font-size: 14px;
 }
-
 .movie-item button {
   margin-top: 10px;
   padding: 8px 16px;
@@ -46,27 +40,20 @@
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
-
 .movie-item button:hover {
   background-color: #0056b3;
 }
-
-
-
-
 /* Styles for the movie component */
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-  }
-  
-  .movie-list {
+}
+.movie-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-  }
-  
+}
   .movie-item {
     width: 24%;
     margin: 10px 0;
@@ -75,23 +62,19 @@
     text-align: center;
     cursor: pointer;
   }
-  
   .movie-item img {
     max-width: 100%;
     height: 300px;
   }
-  
   .movie-item h4 {
     margin: 10px 0;
     font-size: 18px;
     font-weight: bold;
   }
-  
   .movie-item p {
     margin: 5px 0;
     font-size: 14px;
   }
-  
   button {
     background-color: #007bff;
     color: #fff;
@@ -100,7 +83,6 @@
     border-radius: 4px;
     cursor: pointer;
   }
-  
   /* Styles for the payment modal */
   .modal {
     display: none;
@@ -111,7 +93,6 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
   }
-  
   .modal-content {
     position: absolute;
     top: 50%;
@@ -122,21 +103,17 @@
     border-radius: 8px;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
   }
-  
   .modal.active {
     display: block;
   }
-  
   .form-group {
     margin-bottom: 10px;
   }
-  
   label {
     display: block;
     font-weight: bold;
     margin-bottom: 5px;
   }
-  
   input[type="text"],
   input[type="date"] {
     width: 100%;
@@ -144,7 +121,6 @@
     border: 1px solid #ccc;
     border-radius: 4px;
   }
-  
   .pay-button,
   .cancel-button {
     background-color: #007bff;
@@ -154,64 +130,51 @@
     border-radius: 4px;
     cursor: pointer;
   }
-  
   .pay-button {
     margin-right: 10px;
   }
-  
   .cancel-button {
     background-color: #dc3545;
   }
-  
   /* Responsive styles for movie items in one row */
   @media screen and (max-width: 768px) {
     .movie-item {
       width: 48%;
     }
   }
-  
   @media screen and (max-width: 576px) {
     .movie-item {
       width: 100%;
     }
   }
-  
-
-
   /* ... (previous styles) */
 
 /* Styles for the Seats Modal */
 #seats-modal {
     /* Add modal styles as required */
-  }
-  
-  .modal-content .seats-layout {
+ }
+   .modal-content .seats-layout {
     display: flex;
     flex-direction: column;
     gap: 5px;
-  }
-  
+   }
   .seat-row {
     display: flex;
     justify-content: center;
     gap: 5px;
   }
-  
   .seat {
     width: 25px;
     height: 25px;
     border: 1px solid #ccc;
     cursor: pointer;
   }
-  
   .available-seat {
     background-color: #5cb85c;
   }
-  
   .booked-seat {
     background-color: #f0ad4e;
   }
-  
   .selected-seat {
     background-color: #cf5803;
   }
@@ -219,7 +182,6 @@
     background-color: red;
   }
   /* ... (previous styles) */
-  
   /* Styles for selected seats */
 .seats-layout .seat-row .seat .seat-item {
     width: 20px;
@@ -227,13 +189,11 @@
     margin: 5px;
     border: 1px solid #ccc;
     cursor: pointer;
-  }
-  
+}
   /* Styles for selected seats */
   .seats-layout .seat-row .seat .selected-seat {
     background-color: rgb(251, 15, 15);
   }
-
   /* CSS for the movie card inside the modal */
 .movie-card {
   text-align: center;
@@ -246,7 +206,6 @@
   max-height: 300px; /* Set the maximum height for the movie card */
   overflow-y: auto; /* Enable vertical scroll when content overflows */
 }
-
 .movie-card .poster {
   width: 200px;
   height: 300px;
@@ -254,21 +213,17 @@
   border-radius: 8px;
   margin-bottom: 10px;
 }
-
 .movie-card .title {
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 5px;
 }
-
 .movie-card .description {
   margin-bottom: 10px;
 }
-
 .movie-card .language {
   font-style: italic;
 }
-
 /* ... other CSS styles ... */
 .shapes-6 {
   width: 40px;
@@ -291,7 +246,6 @@
   --s:-1;
   animation-direction: reverse;
 }
-
 @keyframes sh6-0 {
   0%,9%,91%,100% {background:#514b82}
   10%,90%        {background:#0000}
@@ -304,7 +258,6 @@
   0%,10%,90%,100% {transform: scale(var(--s,1)) translateY(0)}
   33%,66%         {transform: scale(var(--s,1)) translateY(50%)}
 }
-
 .shapes-7 {
   width: 40px;
   height: 40px;
@@ -316,10 +269,6 @@
   background-size:100% 50%;
   background-repeat: no-repeat;
 }
-
-
-
-
 /* Styles for the pagination */
 .pagination {
   display: flex;
@@ -327,7 +276,6 @@
   align-items: center;
   margin-top: 20px;
 }
-
 .pagination button {
   background-color: #007bff;
   color: #fff;
@@ -337,13 +285,11 @@
   cursor: pointer;
   margin: 5px;
 }
-
 /* Disabled style for previous and next buttons */
 .pagination button[disabled] {
   background-color: #ccc;
   cursor: not-allowed;
 }
-
 /* Styles for the select tag */
 select {
   padding: 8px;
@@ -354,7 +300,6 @@ select {
   margin: 20px;
   margin-left: 55%;
 }
-
 /* Styles for the sort button */
 button {
   background-color: #007bff;
@@ -365,9 +310,7 @@ button {
   cursor: pointer;
   margin: 5px;
   margin: 20px;
-
 }
-
 /* Hover style for the sort button */
 button:hover {
   background-color: #0056b3;
