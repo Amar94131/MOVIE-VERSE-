@@ -7,8 +7,7 @@
     border: 1px solid #ddd;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
+}
   .chat-header {
     background-color: #075e54;
     color: #fff;
@@ -18,22 +17,18 @@
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
   }
-  
   .chat-messages {
     overflow-y: auto;
     flex: 1;
     width: 100%;
     padding: 10px;
   }
-  
   .chat-messages .user-message {
     text-align: right;
   }
-  
   .chat-messages .bot-message {
     text-align: left;
   }
-  
   .chat-messages h3 {
     background-color: #dcf8c6;
     color: #000;
@@ -43,7 +38,6 @@
     display: inline-block;
     max-width: 70%;
   }
-  
   .chat-input {
     width: 100%;
     display: flex;
@@ -51,7 +45,6 @@
     padding: 10px;
     border-top: 1px solid #090909;
   }
-  
   .chat-input input {
     flex: 1;
     padding: 8px;
@@ -60,7 +53,6 @@
     background-color: #f5f5f5;
     outline: none;
   }
-  
   .chat-input button {
     margin-left: 10px;
     border: none;
@@ -71,10 +63,7 @@
     cursor: pointer;
     outline: none;
   }
-  
-
 /* ... Existing styles ... */
-
 /* Styles for the modal */
 .modal {
     display: none;
@@ -85,14 +74,12 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     overflow: scroll;
-  }
-  
-  .modal.active {
+}
+ .modal.active {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
+ }
   .modal-content {
     background-color: #fff;
     padding: 10px;
@@ -101,53 +88,43 @@
     border-radius: 8px;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
   }
-  
   .modal-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 10px;
   }
-  
   .modal-title {
     font-size: 20px;
     font-weight: bold;
   }
-  
   .modal-body {
     margin-bottom: 10px;
   }
-  
   .movie-container {
     display: flex;
     align-items: center;
     gap: 10px;
   }
-  
   .movie-poster {
     width: 60px;
     height: 90px;
     object-fit: cover;
     border-radius: 5px;
   }
-  
   .movie-info {
     flex: 1;
   }
-  
   .movie-title {
     font-size: 16px;
     font-weight: bold;
   }
-  
   .movie-description {
     font-size: 14px;
   }
-  
   .modal-footer {
     text-align: right;
   }
-  
   .modal-footer button {
     padding: 8px 16px;
     background-color: #007bff;
@@ -157,7 +134,6 @@
     cursor: pointer;
     transition: background-color 0.3s ease;
   }
-  
   .modal-footer button:hover {
     background-color: #0056b3;
   }
@@ -171,8 +147,6 @@
     transition: background-color 0.3s ease;
     margin: 3px;
   }
-  
   .top:hover {
     background-color: #068a0f;
   }
-  
